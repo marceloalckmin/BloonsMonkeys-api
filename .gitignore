@@ -1,0 +1,19 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+### Chris esse gitignore já vem padrão pelo spring initializr, só exclui a parte que é pro netbeans/intellij (não sei pq só deu certo nessa bomba de vscode) ###

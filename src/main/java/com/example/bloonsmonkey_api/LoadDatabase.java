@@ -20,6 +20,7 @@ public class LoadDatabase {
         return args -> {
             log.info("Preloading " + repository.save(new BloonsMonkey("Macaco Dardo falso", "Um macaco que atira dardos em baloes", "Afiado", 1)));
             log.info("Preloading " + repository.save(new BloonsMonkey("Macaco Sniper ruim de mira", "Um macaco que atira balas calibre 50 em baloes", "Perfurante", 10)));
+            log.info("Preloading " + repository.save(new BloonsMonkey("Macaco Dardo Crossbow", "Um macaco que atira dardos em baloes", "Afiado", 1)));
         };
     }
 

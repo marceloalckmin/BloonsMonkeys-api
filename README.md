@@ -25,3 +25,8 @@ Para executar é muito simples, é só rodar o projeto com o maven:
 ### Lista de macacos registrados
 `/monkeys`
 Essa endpoint retorna um json com as informações de todos os macacos registrados
+
+
+
+## Conflito no PR
+Eu e meu colega só alteramos a mesma linha de macacos no database que eu tinha feito e eu exclui 1 dos 2 que ele tinha alterado e adicionei 1 que ele fez para ter mais contingente no database, só isso mesmo.
